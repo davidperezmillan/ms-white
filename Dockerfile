@@ -8,9 +8,6 @@ ARG JAR_FILE=target/ms-black-0.0.1-SNAPSHOT.jar
 # Directorio de trabajo dentro del contenedor
 WORKDIR /app
 
-# Crear directorio para videos
-RUN mkdir /app/videos
-
 # Copiar el archivo JAR generado en el contenedor
 COPY ${JAR_FILE} app.jar
 

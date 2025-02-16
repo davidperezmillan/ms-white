@@ -1,4 +1,4 @@
-package com.davidperezmillan.ms_black;
+package com.davidperezmillan.application;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

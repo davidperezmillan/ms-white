@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.davidperezmillan</groupId>
-	<artifactId>ms-black</artifactId>
+	<artifactId>ms-white</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ms-black</name>
 	<description>Demo project for Spring Boot</description>
@@ -58,18 +58,6 @@
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
 			<version>${org.modelmapper.version}</version>
-		</dependency>
-
-		<!-- dependencias para qr -->
-		<dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>core</artifactId>
-			<version>${com.google.zxing.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>javase</artifactId>
-			<version>${com.google.zxing.version}</version>
 		</dependency>
 
 
