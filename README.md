@@ -37,6 +37,11 @@ WEBHOOKS_STACK_RELEASE
 ![variables.png](img/variables.png)
 
 ### PORTAINER
+Para desplegar el contenedor de portainer en el servidor, tenemos que añadir las env al proyecto en portainer.
+[env](env)
+Antes de desplegar debe tener por lo menos una compilacion exitosa en github actions.
+
+
 Se ha desplegado un contenedor de portainer en el servidor, para poder gestionar los contenedores de una forma mas visual.
 
 Tenemos que rellenar el template con estos datos para poder desplegar el contenedor.

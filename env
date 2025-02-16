@@ -1,0 +1,5 @@
+CONTAINER_NAME=ms-white
+IMAGE_NAME=davidperez01/ms-white
+VERSION=latest
+PORT=8080
+SPRING_PROFILE=prod
