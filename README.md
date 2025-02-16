@@ -11,7 +11,15 @@ Se han creado dos acciones:
 
 Existen una serie de secretos y variables que se definen en estos actions.
 
+DOCKERHUB_PASSWORD
+DOCKERHUB_USERNAME
+REGISTRY_PASSWORD
+REGISTRY_USERNAME
+
 ![secrets.png](img/secrets.png)
+
+WEBHOOKS_STACK_LATEST
+WEBHOOKS_STACK_RELEASE
 
 ![variables.png](img/variables.png)
 
